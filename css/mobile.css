@@ -1,0 +1,78 @@
+@media (max-width: 500px) {
+  body {
+    line-height: 5px;
+    width: 100%;
+    font-size: 12px;
+    border: 1px rgb(197, 194, 194) solid;
+    margin: 10px;
+  }
+
+  /* tạo banner */
+  .banner {
+    position: relative;
+    box-shadow: 0 0 8px;
+  }
+
+  .banner1 {
+    position: absolute;
+    top: 10%;
+    left: 15%;
+    color: white;
+  }
+
+  /* tạo thanh bar */
+  .bg-grey {
+    padding-left: 0;
+  }
+
+  .nav-item {
+    width: 500px;
+  }
+
+  .tagbar-myphoto {
+    display: none;
+  }
+  /* chứng chỉ*/
+
+  .cert:nth-child(2) {
+    border-left: none;
+    margin: 15px;
+    border-bottom: 2px solid #d6c08d;
+  }
+  .cert:nth-child(3) {
+    border-left: none;
+  }
+
+  /* ------------ */
+  /* khối footer */
+
+  .footer-link {
+    display: inline-block;
+    margin-right: 30px;
+  }
+  .footer {
+    margin-bottom: 0;
+    font-size: 70%;
+  }
+  /* style for digital-cv */
+  .section {
+    background-color: #f7f7f7;
+    color: black;
+    border-bottom: #1936db solid 10px;
+  }
+  .digital-container {
+    display: block;
+    line-height: 18px;
+  }
+  .goal,
+  .team,
+  .pri,
+  .period {
+    display: grid;
+    grid-template-columns: 25% 75%;
+    padding-top: 10px;
+  }
+  .scopes > .grid {
+    display: block;
+  }
+}

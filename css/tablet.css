@@ -1,0 +1,94 @@
+@media (min-width: 501px) and (max-width: 768px) {
+  /* tạo banner */
+  .banner {
+    position: relative;
+  }
+
+  .banner1 {
+    position: absolute;
+    top: 25%;
+    left: 30%;
+    color: white;
+  }
+
+  .nav-item {
+    width: 560px;
+  }
+
+  #nav-bar .tagbar-myphoto {
+    width: 30px;
+  }
+  .tagbar-myphoto img {
+    display: none;
+  }
+  /*chứng chỉ*/
+
+  .cert-pic {
+    width: 90px;
+    height: 90px;
+  }
+  .cert-text {
+    font-size: 14px;
+  }
+
+  /* -------------- */
+  /* Khoi Du an */
+
+  #project i {
+    font-size: 15px;
+    color: #616161;
+  }
+
+  .detail-content {
+    line-height: 20px;
+    font-size: 14px;
+    vertical-align: middle;
+  }
+
+  .duan-hang1 {
+    height: 230px;
+  }
+  .duan-hang2 {
+    height: 80px;
+  }
+  .duan-hang3 {
+    height: 60px;
+  }
+
+  /* ------------ */
+  /* khối footer */
+
+  .footer-link {
+    display: inline-block;
+    margin-right: 30px;
+  }
+
+  .footer {
+    margin-bottom: 0;
+    font-size: 90%;
+  }
+
+  /* style for digital-cv.html */
+  .digital-container {
+    display: block;
+    border: #1936db solid 20px;
+  }
+  .section {
+    padding-bottom: 30px;
+  }
+  .big-title {
+    padding: 20px 0px;
+  }
+  .goal,
+  .team,
+  .pri,
+  .period {
+    display: grid;
+    grid-template-columns: 25% 75%;
+    padding-top: 10px;
+  }
+  .digital-container i {
+    display: block;
+    text-align: center;
+  }
+}
